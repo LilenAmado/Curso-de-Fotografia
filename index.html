@@ -236,10 +236,13 @@
               </div>
             </div>
             <div class="grid-col-sm-12">
+              
               <div class="form-group">
-                <input type="text" name="email" required>
+                <input type="text" name="email" id="emailInput" required>
                 <label for="email">Email:</label>
+                <span id="emailError" style="color: red; display: none;">El correo electrónico debe contener '@'</span>
               </div>
+
             </div>
             <div class="grid-col-sm-12">
               <div class="form-group">
@@ -249,7 +252,13 @@
             </div>
           </div>
 
-          <input class="btn btn-outline-teal" type="submit" value="Enviar">
+          <!-- <input class="btn btn-outline-teal" type="submit" value="Enviar"> -->
+
+          
+          <input class="btn btn-outline-teal" type="submit" value="Enviar" onclick="enviarMensaje(event)">
+          
+          <span id="mensajeEnviado" style="display: none;">¡El mensaje ha sido enviado!</span>
+          
 
         </form>
 
@@ -313,6 +322,11 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     
     <!-- JS -->
+
+    <script src="./js/input.js"></script> 
+
+    <script src="./js/form.js"></script> 
+
     <script src="./js/hidden_element.js"></script> 
 
     <script src="./js/menu.js"></script>
