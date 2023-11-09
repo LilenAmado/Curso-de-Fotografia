@@ -1067,3 +1067,11 @@ footer a{
 footer a:hover{
   color: rgba(0, 216, 176, 0.653)
 }
+
+a.navbar-brand {
+  transition: transform 0.2s ease-in-out;
+}
+
+a.navbar-brand:hover {
+  transform: scale(1.1); /* Puedes ajustar el valor según lo que desees */
+}
