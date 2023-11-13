@@ -2,6 +2,8 @@
 
 Esta es la página de inicio del Curso de Fotografía, diseñada y construida con HTML, CSS y JavaScript para brindarte información y detalles sobre el curso.
 
+Url: https://lilenamado.github.io/C54-BAMultiplica2.0-2023/
+
 ## Descripción del Curso
 
 Descubre tu creatividad a través de la fotografía y mejora tus habilidades fotográficas con nuestro curso en línea. Aprende a capturar momentos inolvidables y crea imágenes impresionantes.
